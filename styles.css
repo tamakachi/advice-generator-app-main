@@ -41,6 +41,6 @@ body{
     position: relative;
     top: 25px !important;
     right: 0;
-  
-    
+    cursor: pointer;
 }
+

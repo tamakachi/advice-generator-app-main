@@ -1,5 +1,6 @@
 const adviceId = document.querySelector(".adviceNumber")
 const adviceParagraph = document.querySelector(".adviceText")
+const roundDiv = document.querySelector(".round")
 
 const updateUI = (adviceIDNumber,advice) =>{
     adviceId.innerHTML= `
@@ -17,3 +18,6 @@ fetch('https://api.adviceslip.com/advice')
 
   getAdvice()
 
+roundDiv.addEventListener("click",()=>{
+    getAdvice()
+})
