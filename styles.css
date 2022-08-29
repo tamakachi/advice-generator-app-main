@@ -21,3 +21,26 @@ body{
     color: rgb(215, 218, 226);
     font-size: 1.3rem;
 }
+
+.dice {
+    
+    
+    background-color: hsl(150, 100%, 66%);
+}
+
+.diceDiv{
+
+    padding-top: 11px;
+}
+
+.round{
+    width: 50px;
+    height: 50px;
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    position: relative;
+    top: 25px !important;
+    right: 0;
+  
+    
+}
