@@ -1,0 +1,22 @@
+body{
+    background-color: #202632;
+    font-family: 'Manrope', sans-serif;
+}
+
+.main{
+    background-color: #313a49;
+    max-width: 500px;
+    border-radius: 8px;
+    font-weight: 800;
+}
+
+.adviceNumber {
+    color: hsl(150, 100%, 66%);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.adviceText{
+    color: rgb(215, 218, 226);
+    font-size: 1.3rem;
+}
