@@ -11,6 +11,7 @@ body{
 }
 
 .adviceNumber {
+    letter-spacing: 3px;
     color: hsl(150, 100%, 66%);
     font-weight: 300;
     font-size: 0.9rem;
